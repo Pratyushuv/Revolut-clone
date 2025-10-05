@@ -1,0 +1,906 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 100%;
+  /* max-width: 1024px;
+  margin: 0 auto; */
+  position: relative;
+  height: 880px;
+}
+.banner-image {
+  width: 100%;
+  height: 880px;
+}
+
+.main {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  max-width: 1024px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.head1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 18px;
+  padding-right: 20px;
+}
+
+.logn {
+  display: flex;
+  gap: 10px;
+}
+
+.hamt {
+  display: flex;
+  gap: 10px;
+}
+
+.navl {
+  display: none;
+}
+
+.top-but {
+  display: none;
+}
+
+.banner-content {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-left: 15px;
+}
+
+.banner-content h1 {
+  width: 100%;
+  color: white;
+  font-family: "Aeonik Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 18px;
+}
+
+.banner-content p {
+  font-family: "Aeonik Pro", sans-serif;
+  width: 90%;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+.banner-content button {
+  background-color: black;
+  color: white;
+  font-family: "Aeonik Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  border-radius: 25px;
+  width: 180px;
+  padding: 8px;
+  margin-top: 15px;
+}
+
+.main1 {
+  width: 100%;
+  position: absolute;
+  max-width: 1024px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+}
+
+.main1 picture {
+  display: block;
+  width: 100%;
+}
+
+.main1 picture img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.frame {
+  width: 100%;
+  position: absolute;
+  bottom: 55px;
+  display: flex;
+  justify-content: center;
+}
+
+.frame picture {
+  display: block;
+  width: 100%;
+  border: 2px solid white;
+  max-width: 300px;
+  border-radius: 20px;
+}
+
+.frame picture img {
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+}
+
+/* section2 */
+
+.section2 {
+  width: 100%;
+}
+
+.section2-content {
+  width: 100%;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.section2-content button {
+  width: 150px;
+  background-color: black;
+  color: white;
+  font-family: "Aeonik Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  border-radius: 25px;
+  width: 180px;
+  padding: 8px;
+  margin-top: 20px;
+}
+
+.section2-content h1 {
+  font-family: "Aeonik Pro", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.section2-content p {
+  font-family: "Aeonik Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.slider {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  overflow: clip;
+  max-width: 720px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.card1 {
+  width: 100%;
+  max-width: 200px;
+  min-width: 200px;
+  border-radius: 20px;
+  position: relative;
+  height: 300px;
+  flex: 1;
+  margin-left: 30px;
+}
+.card1-image1 {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.card1-image2 {
+  position: absolute;
+  top: -142px;
+  left: -1px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-height: 438px;
+}
+
+.card1-image3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card2 {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.card3 {
+  display: none;
+}
+
+.card2 img {
+  border-radius: 20px;
+  height: 280px;
+  transform: translateX(15px);
+}
+
+.section3 .head {
+  color: rgb(80, 90, 99);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.24px;
+  font-family: "Aeonik Pro", sans-serif;
+  margin-top: 100px;
+  padding: 0 20px;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 30px;
+  margin-top: 30px;
+}
+
+.section3 .sec1 {
+  display: flex;
+  gap: 80px;
+  margin-top: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section3 .sec2 {
+  display: flex;
+  gap: 100px;
+  margin-top: 80px;
+  justify-content: center;
+}
+.b1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 110px;
+}
+
+.b1 img {
+  width: 140px;
+  height: 60px;
+}
+
+.img {
+  align-self: anchor-center;
+}
+
+.b1 .title {
+  color: rgb(28, 30, 31);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: normal;
+  font-family: "Aeonik Pro", sans-serif;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
+  position: relative;
+}
+.video1 {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+}
+
+.video-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: anchor-center;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  gap: 29rem;
+}
+
+.video-con .con1 {
+  padding: 0 20px;
+}
+.video-con .con1 h1 {
+  color: rgb(244, 244, 244);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.6px;
+  font-family: "Aeonik Pro", sans-serif;
+}
+
+.video-con .con1 p {
+  color: rgb(244, 244, 244);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: normal;
+  font-family: "Aeonik Pro", sans-serif;
+  margin-top: 10px;
+}
+
+.video-con .con1 button {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: normal;
+  font-family: "Aeonik Pro", sans-serif;
+  margin-top: 10px;
+  padding: 10px 23px;
+  border-radius: 35px;
+}
+
+.video-con .con2 .but2 {
+  color: white;
+  border: 1px solid white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: normal;
+  font-family: "Aeonik Pro", sans-serif;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 35px;
+  background: transparent;
+}
+
+.video-con .con2 .but3 {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: normal;
+  font-family: "Aeonik Pro", sans-serif;
+  margin-top: 10px;
+  padding: 10px 25px;
+  border-radius: 35px;
+  opacity: 0.7;
+}
+
+.video-con .con2 {
+  display: flex;
+  gap: 12px;
+}
+
+.section5 {
+  width: 100%;
+  position: relative;
+  height: 800px;
+}
+
+.section5 .img-1 {
+  width: 100%;
+  height: 800px;
+}
+
+.section5 .img-2 {
+  width: 100%;
+  display: none;
+}
+
+.section5-con {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: anchor-center;
+  justify-content: space-between;
+  height: 100%;
+  max-height: 700px;
+}
+
+.section5-con .con1 {
+  padding: 0 20px;
+}
+
+.section5-con .con2 {
+  width: 100%;
+}
+
+.section5-con .con2-img {
+  width: 100%;
+}
+
+.section5-con .con3 .but2 {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: normal;
+  font-family: "Aeonik Pro", sans-serif;
+  margin-top: 10px;
+  padding: 10px 25px;
+  border-radius: 35px;
+  opacity: 0.7;
+}
+
+.section5-con .con3 .but3 {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: normal;
+  font-family: "Aeonik Pro", sans-serif;
+  margin-top: 10px;
+  padding: 10px 25px;
+  border-radius: 35px;
+  opacity: 0.7;
+}
+
+.section5-con .con3 .but4 {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: normal;
+  font-family: "Aeonik Pro", sans-serif;
+  margin-top: 10px;
+  padding: 10px 25px;
+  border-radius: 35px;
+  opacity: 0.7;
+}
+
+.section5-con .con1 h1 {
+  color: white;
+  font-family: "Aeonik Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: normal;
+  margin-top: 15px;
+}
+
+.section5-con .con1 h2 {
+  color: white;
+  font-family: "Aeonik Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: normal;
+  margin-top: 15px;
+}
+
+.section5-con .con1 p {
+  color: white;
+  font-family: "Aeonik Pro", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.18px;
+  margin-top: 15px;
+}
+
+.section5-con .con1 .but1 {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: normal;
+  font-family: "Aeonik Pro", sans-serif;
+  margin-top: 10px;
+  padding: 10px 25px;
+  border-radius: 35px;
+  opacity: 0.7;
+  border: none;
+  margin-top: 15px;
+}
+
+.section6 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section6 .sec1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+  padding-top: 50px;
+  padding-right: 20px;
+}
+
+.section6 .sec2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.section6 .sec2 video {
+  width: 100%;
+  max-width: 350px;
+}
+.section6 .sec1 .but1 {
+  background-color: black;
+  color: white;
+  font-family: "Aeonik Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  border-radius: 25px;
+  width: 120px;
+  padding: 8px;
+  margin-top: 20px;
+}
+
+.section6 .sec1 h1 {
+  color: rgb(0, 0, 0);
+  font-family: "Aeonik Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.section6 .sec1 p {
+  color: rgb(0, 0, 0);
+  font-family: "Aeonik Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 25px;
+}
+
+.section7 {
+  width: 100%;
+  background-color: black;
+  padding-top: 50px;
+}
+
+.section7 .con1 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.section7 .con2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.section7 .con2 .video1 {
+  width: 100%;
+  max-width: 200px;
+  height: 300px;
+  margin-top: 40px;
+}
+
+.section7 .con2 .video2 {
+  display: none;
+}
+
+.section7 .con1 h1 {
+  color: rgb(244, 244, 244);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: normal;
+  font-family: "Aeonik Pro", sans-serif;
+  margin-top: 15px;
+}
+
+.section7 .con1 p {
+  color: rgb(244, 244, 244);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: normal;
+  font-family: "Aeonik Pro", sans-serif;
+  margin-top: 15px;
+}
+
+.section7 .con1 button {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: normal;
+  font-family: "Aeonik Pro", sans-serif;
+  margin-top: 10px;
+  padding: 10px 25px;
+  border-radius: 35px;
+  opacity: 0.7;
+  border: none;
+  margin-top: 15px;
+}
+
+.section7 .con3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.section7 .con3 .but1 {
+  color: white;
+  border: 1px solid white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: normal;
+  font-family: "Aeonik Pro", sans-serif;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 35px;
+  background: transparent;
+}
+
+.section7 .con3 .but2 {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: normal;
+  font-family: "Aeonik Pro", sans-serif;
+  margin-top: 10px;
+  padding: 10px 25px;
+  border-radius: 35px;
+}
+
+.section8 {
+  width: 100%;
+}
+
+.section8 .con {
+  width: 100%;
+}
+@media screen and (min-width: 720px) {
+  .banner-content h1 {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: -2.08px;
+  }
+
+  .section2-content {
+    text-align: center;
+  }
+
+  .card3 {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 20px;
+    position: relative;
+    transform: translateY(20px);
+  }
+  .card3 img {
+    border-radius: 20px;
+    height: 280px;
+    transform: translateX(15px);
+  }
+
+  .card2 {
+    transform: translateY(20px);
+  }
+  .section3 .head {
+    text-align: center;
+  }
+
+  .b1 img {
+    width: 230px;
+    height: 90px;
+  }
+  .sec1 {
+    display: flex;
+    gap: 150px;
+  }
+
+  .video-con .con1 h1 {
+    color: rgb(244, 244, 244);
+    font-size: 53px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: -0.6px;
+    font-family: "Aeonik Pro", sans-serif;
+  }
+
+  .section5-con .con1 {
+    text-align: center;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .section6 .sec1 {
+    text-align: center;
+  }
+
+  .section6 .sec1 .but1 {
+    align-self: anchor-center;
+  }
+
+  .section7 .con2 .video2 {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+  }
+
+  .section7 .con2 .video1 {
+    display: none;
+  }
+
+  .section7 .con1 {
+    text-align: center;
+  }
+  .section7 .con1 h1 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -0.6px;
+    font-family: "Aeonik Pro", sans-serif;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .banner {
+    height: 630px;
+  }
+  .banner-image {
+    height: 630px;
+  }
+
+  .frame picture img {
+    height: 420px;
+  }
+
+  .banner-content {
+    z-index: 10;
+    position: relative;
+  }
+
+  .banner-content p {
+    width: 40%;
+  }
+
+  .navl {
+    display: block;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  .navl a {
+    margin-left: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Aeonik Pro", sans-serif;
+    line-height: 28px;
+  }
+
+  .top-but {
+    display: flex;
+    gap: 40px;
+  }
+
+  .ham svg {
+    display: none;
+  }
+
+  .top-but .but1 {
+    white-space: nowrap;
+    color: white;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Aeonik Pro", sans-serif;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+
+  .top-but .but2 {
+    width: 100px;
+    white-space: nowrap;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    height: 40px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Aeonik Pro", sans-serif;
+    line-height: 22px;
+  }
+
+  .card1 {
+    height: 290px;
+    margin-left: 14px;
+  }
+  .card1-image1 {
+    min-height: 260px;
+  }
+
+  .card1-image2 {
+    min-height: 431px;
+  }
+
+  .card2 img {
+    height: 260px;
+  }
+
+  .card3 img {
+    height: 260px;
+  }
+
+  .section5 .img-1 {
+    display: none;
+  }
+
+  .section5 .img-2 {
+    display: block;
+    height: 800px;
+  }
+
+  .section5-con .con2-img {
+    width: 100%;
+    height: 100%;
+    max-height: 250px;
+    /* max-width: 500px; */
+  }
+
+  .section5-con .con2 {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .section6 {
+    flex-direction: row;
+    padding-top: 130px;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  .section6 .sec1 {
+    text-align: start;
+  }
+
+  .section6 .sec1 .but1 {
+    align-self: flex-start;
+  }
+
+  .section6 .sec2 {
+    position: relative;
+    bottom: 35px;
+  }
+
+  .section3 .sec1 {
+    gap: 120px;
+  }
+}
+
+/* @media screen and (min-width: 526px) {
+} */
