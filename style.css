@@ -439,11 +439,13 @@
 .section5 .img-1 {
   width: 100%;
   height: 800px;
+  object-fit: cover;
 }
 
 .section5 .img-2 {
   width: 100%;
   display: none;
+  object-fit: cover;
 }
 
 .section5-con {
