@@ -1,3 +1,36 @@
+@font-face {
+  font-family: font1;
+  src: url("https://assets.revolut.com/assets/fonts/AeonikPro-Medium.woff2");
+}
+@font-face {
+  font-family: font2;
+  src: url("https://assets.revolut.com/assets/fonts/AeonikPro-Regular.woff2");
+}
+@font-face {
+  font-family: font3;
+  src: url("https://assets.revolut.com/assets/fonts/AeonikPro-Black.woff2");
+}
+@font-face {
+  font-family: font4;
+  src: url("https://assets.revolut.com/assets/fonts/AeonikPro-Black-Capitalised.woff2");
+}
+@font-face {
+  font-family: font5;
+  src: url("https://assets.revolut.com/assets/fonts/Inter-Bold.woff2");
+}
+@font-face {
+  font-family: font6;
+  src: url("https://assets.revolut.com/assets/fonts/Inter-SemiBold.woff2");
+}
+@font-face {
+  font-family: font7;
+  src: url("https://assets.revolut.com/assets/fonts/Inter-Medium.woff2");
+}
+@font-face {
+  font-family: font8;
+  src: url("https://assets.revolut.com/assets/fonts/Inter-Regular.woff2");
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -64,7 +97,7 @@
 .banner-content h1 {
   width: 100%;
   color: white;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 36px;
   font-weight: 500;
   line-height: 36px;
@@ -72,7 +105,7 @@
 }
 
 .banner-content p {
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   width: 90%;
   color: white;
   font-size: 18px;
@@ -84,7 +117,7 @@
 .banner-content button {
   background-color: black;
   color: white;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
@@ -126,15 +159,15 @@
 .frame picture {
   display: block;
   width: 100%;
-  border: 2px solid white;
-  max-width: 300px;
+  border: 3px solid rgb(197, 197, 197);
+  max-width: 325px;
   border-radius: 20px;
 }
 
 .frame picture img {
   width: 100%;
   object-fit: cover;
-  height: 450px;
+  height: 470px;
 }
 
 /* section2 */
@@ -154,7 +187,7 @@
   width: 150px;
   background-color: black;
   color: white;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
@@ -165,14 +198,14 @@
 }
 
 .section2-content h1 {
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 32px;
   font-weight: 500;
   line-height: 32px;
 }
 
 .section2-content p {
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -216,7 +249,7 @@
   height: 100%;
   object-fit: cover;
   min-height: 438px;
-  border-radius: 13px;
+  border-radius: 25px;
 }
 
 .card1-image3 {
@@ -250,7 +283,7 @@
   font-weight: 500;
   line-height: 28px;
   letter-spacing: -0.24px;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   margin-top: 100px;
   padding: 0 20px;
 }
@@ -299,7 +332,7 @@
   font-weight: 500;
   line-height: 22px;
   letter-spacing: normal;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
 }
 
 .video {
@@ -307,7 +340,7 @@
   height: 100%;
   margin-top: 80px;
   position: relative;
-  bottom: -4px;
+  top: 4px;
 }
 .video1 {
   width: 100%;
@@ -336,7 +369,7 @@
   font-weight: 500;
   line-height: 36px;
   letter-spacing: -0.6px;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
 }
 
 .video-con .con1 p {
@@ -345,7 +378,7 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: normal;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   margin-top: 25px;
 }
 
@@ -355,7 +388,7 @@
   font-weight: 500;
   line-height: 22px;
   letter-spacing: normal;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   margin-top: 25px;
   padding: 10px 23px;
   border-radius: 35px;
@@ -363,12 +396,12 @@
 
 .video-con .con2 .but2 {
   color: white;
-  border: 1px solid white;
+  border: 2px solid white;
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
   letter-spacing: normal;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   margin-top: 10px;
   padding: 10px 20px;
   border-radius: 35px;
@@ -381,7 +414,7 @@
   font-weight: 500;
   line-height: 22px;
   letter-spacing: normal;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   margin-top: 10px;
   padding: 10px 25px;
   border-radius: 35px;
@@ -441,7 +474,7 @@
   font-weight: 500;
   line-height: 22px;
   letter-spacing: normal;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   margin-top: 10px;
   padding: 10px 25px;
   border-radius: 35px;
@@ -449,34 +482,38 @@
 }
 
 .section5-con .con3 .but3 {
-  color: black;
+  color: white;
+  border: 2px solid white;
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
   letter-spacing: normal;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   margin-top: 10px;
   padding: 10px 25px;
   border-radius: 35px;
   opacity: 0.7;
+  background: transparent;
 }
 
 .section5-con .con3 .but4 {
-  color: black;
+  color: white;
+  border: 2px solid white;
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
   letter-spacing: normal;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   margin-top: 10px;
   padding: 10px 25px;
   border-radius: 35px;
   opacity: 0.7;
+  background: transparent;
 }
 
 .section5-con .con1 h1 {
   color: white;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 36px;
   font-weight: 500;
   line-height: 36px;
@@ -486,7 +523,7 @@
 
 .section5-con .con1 h2 {
   color: white;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -496,7 +533,7 @@
 
 .section5-con .con1 p {
   color: white;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
@@ -510,7 +547,7 @@
   font-weight: 500;
   line-height: 22px;
   letter-spacing: normal;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   margin-top: 10px;
   padding: 10px 25px;
   border-radius: 35px;
@@ -548,19 +585,19 @@
 .section6 .sec1 .but1 {
   background-color: black;
   color: white;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
   border-radius: 25px;
   width: 120px;
   padding: 8px;
-  margin-top: 20px;
+  margin-top: 35px;
 }
 
 .section6 .sec1 h1 {
   color: rgb(0, 0, 0);
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 36px;
   font-weight: 500;
   line-height: 36px;
@@ -568,7 +605,7 @@
 
 .section6 .sec1 p {
   color: rgb(0, 0, 0);
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -610,7 +647,7 @@
   font-weight: 500;
   line-height: 36px;
   letter-spacing: normal;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   margin-top: 15px;
 }
 
@@ -620,7 +657,7 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: normal;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   margin-top: 15px;
 }
 
@@ -631,7 +668,7 @@
   font-weight: 500;
   line-height: 22px;
   letter-spacing: normal;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   margin-top: 10px;
   padding: 10px 25px;
   border-radius: 35px;
@@ -650,12 +687,12 @@
 
 .section7 .con3 .but1 {
   color: white;
-  border: 1px solid white;
+  border: 2px solid white;
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
   letter-spacing: normal;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   margin-top: 10px;
   padding: 10px 25px;
   border-radius: 35px;
@@ -668,7 +705,7 @@
   font-weight: 500;
   line-height: 22px;
   letter-spacing: normal;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   margin-top: 10px;
   padding: 10px 25px;
   border-radius: 35px;
@@ -682,14 +719,17 @@
 
 .section8 .con {
   width: 100%;
-  padding: 50px 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 80px;
+  padding-bottom: 150px;
   max-width: 1024px;
   margin: 0 auto;
 }
 
 .section8 .con h1 {
   color: rgb(25, 28, 31);
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 32px;
   font-weight: 500;
   line-height: 32px;
@@ -699,7 +739,7 @@
 .section8 .con p,
 .section8 .con a {
   color: rgb(25, 28, 31);
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
@@ -709,7 +749,7 @@
 .section8 .con .but1 {
   background-color: black;
   color: white;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
@@ -730,7 +770,7 @@
 
 .section9 .head {
   color: white;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 28px;
   font-weight: 500;
   line-height: 32px;
@@ -741,7 +781,7 @@
 
 .section9 h1 {
   color: rgb(25, 28, 31);
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 24px;
   font-weight: 500;
   line-height: 28px;
@@ -750,7 +790,7 @@
 
 .section9 h2 {
   color: rgb(25, 28, 31);
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -759,7 +799,7 @@
 
 .section9 p {
   color: rgb(80, 90, 99);
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -798,8 +838,8 @@
 }
 
 .section9 .card .icon img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 .section9 .card .icon {
   align-self: flex-end;
@@ -840,7 +880,7 @@
 
 .section10 .drop p {
   color: white;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   font-size: 12px;
   font-weight: 600;
   line-height: 18px;
@@ -915,7 +955,7 @@
   font-weight: 400;
   letter-spacing: 0.18px;
   line-height: 18px;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
 }
 .section11 span {
   color: rgb(141, 150, 158);
@@ -923,7 +963,7 @@
   font-weight: 400;
   letter-spacing: 0.18px;
   line-height: 18px;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
 }
 
 .section11 .sec2 .sub-sec2 {
@@ -948,7 +988,7 @@
   font-weight: 400;
   letter-spacing: 0.18px;
   line-height: 18px;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   margin-top: 15px;
 }
 
@@ -958,12 +998,22 @@
   font-weight: 400;
   letter-spacing: 0.18px;
   line-height: 18px;
-  font-family: "Aeonik Pro", sans-serif;
+  font-family: font1;
   margin-top: 15px;
 }
 
 .br {
   display: none;
+}
+
+.section5 .section5-con .con3 {
+  display: flex;
+  gap: 10px;
+}
+
+.cont {
+  width: 100%;
+  background-color: rgb(25, 28, 31);
 }
 
 @media screen and (max-width: 1024px) {
@@ -1021,7 +1071,7 @@
     font-weight: 500;
     line-height: 53px;
     letter-spacing: -0.6px;
-    font-family: "Aeonik Pro", sans-serif;
+    font-family: font1;
   }
 
   .section5-con .con1 {
@@ -1058,7 +1108,7 @@
     font-weight: 500;
     line-height: 48px;
     letter-spacing: -0.6px;
-    font-family: "Aeonik Pro", sans-serif;
+    font-family: font1;
     margin-top: 15px;
   }
 
@@ -1071,7 +1121,7 @@
 
   .section8 .con h1 {
     color: rgb(25, 28, 31);
-    font-family: "Aeonik Pro", sans-serif;
+    font-family: font1;
     font-size: 48px;
     font-weight: 500;
     line-height: 48px;
@@ -1123,7 +1173,7 @@
 
   .section10 .sec-pc p {
     color: rgb(141, 150, 158);
-    font-family: "Aeonik Pro", sans-serif;
+    font-family: font1;
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
@@ -1132,7 +1182,7 @@
 
   .section10 .sec-pc .head {
     color: white;
-    font-family: "Aeonik Pro", sans-serif;
+    font-family: font1;
     font-size: 12px;
     font-weight: 600;
     line-height: 18px;
@@ -1152,12 +1202,33 @@
 
   .section5-con .con1 h1 {
     color: white;
-    font-family: "Aeonik Pro", sans-serif;
+    font-family: font1;
     font-size: 48px;
     font-weight: 500;
     line-height: 48px;
     letter-spacing: -0.6px;
     margin-top: 15px;
+  }
+
+  .section2-content h1 {
+    font-family: font1;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -0.6px;
+  }
+
+  .section6 .sec2 video {
+    width: 100%;
+    max-width: 250px;
+  }
+  .section6 .sec1 h1 {
+    color: rgb(0, 0, 0);
+    font-family: font1;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -0.6px;
   }
 }
 
@@ -1193,11 +1264,11 @@
   }
 
   .navl a {
-    margin-left: 25px;
+    margin-left: 35px;
     color: white;
     font-size: 16px;
     font-weight: 500;
-    font-family: "Aeonik Pro", sans-serif;
+    font-family: font1;
     line-height: 28px;
   }
 
@@ -1216,7 +1287,7 @@
     margin-top: 5px;
     font-size: 16px;
     font-weight: 500;
-    font-family: "Aeonik Pro", sans-serif;
+    font-family: font1;
     line-height: 22px;
     margin-top: 10px;
   }
@@ -1225,13 +1296,13 @@
     width: 100px;
     white-space: nowrap;
     border: none;
-    padding: 10px 15px;
+    padding: 9px 15px;
     border-radius: 20px;
-    height: 40px;
+    height: 41px;
     background-color: white;
     font-size: 16px;
     font-weight: 500;
-    font-family: "Aeonik Pro", sans-serif;
+    font-family: font1;
     line-height: 22px;
   }
 
@@ -1310,7 +1381,7 @@
   }
 
   .section2-content h1 {
-    font-family: "Aeonik Pro", sans-serif;
+    font-family: font1;
     font-size: 48px;
     font-weight: 500;
     line-height: 48px;
@@ -1319,6 +1390,40 @@
 
   .br {
     display: block;
+  }
+
+  .section3 .head {
+    color: rgb(80, 90, 99);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.32px;
+    font-family: font1;
+    margin-top: 100px;
+    padding: 0 20px;
+  }
+
+  .section6 .sec2 video {
+    width: 100%;
+    max-width: 370px;
+  }
+
+  .section9 .head {
+    color: white;
+    font-family: font1;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    padding-top: 60px;
+    padding-left: 25px;
+  }
+
+  .banner-content h1 {
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 90px;
+    letter-spacing: -2.08px;
   }
 }
 
