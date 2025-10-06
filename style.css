@@ -1230,6 +1230,14 @@
     line-height: 48px;
     letter-spacing: -0.6px;
   }
+
+  .banner-image {
+    height: 960px;
+  }
+
+  .banner {
+    height: 960px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
