@@ -9,11 +9,11 @@
   /* max-width: 1024px;
   margin: 0 auto; */
   position: relative;
-  height: 880px;
+  height: 901px;
 }
 .banner-image {
   width: 100%;
-  height: 880px;
+  height: 901px;
 }
 
 .main {
@@ -101,7 +101,7 @@
   margin: 0 auto;
   left: 0;
   right: 0;
-  bottom: 0px;
+  bottom: -4px;
 }
 
 .main1 picture {
@@ -117,9 +117,10 @@
 .frame {
   width: 100%;
   position: absolute;
-  bottom: 55px;
+
   display: flex;
   justify-content: center;
+  bottom: 100px;
 }
 
 .frame picture {
@@ -133,7 +134,7 @@
 .frame picture img {
   width: 100%;
   object-fit: cover;
-  height: 500px;
+  height: 450px;
 }
 
 /* section2 */
@@ -209,12 +210,13 @@
 
 .card1-image2 {
   position: absolute;
-  top: -142px;
-  left: -1px;
+  top: -139px;
+  left: 0px;
   width: 100%;
   height: 100%;
   object-fit: cover;
   min-height: 438px;
+  border-radius: 13px;
 }
 
 .card1-image3 {
@@ -305,6 +307,7 @@
   height: 100%;
   margin-top: 80px;
   position: relative;
+  bottom: -4px;
 }
 .video1 {
   width: 100%;
@@ -417,6 +420,7 @@
   justify-content: space-between;
   height: 100%;
   max-height: 700px;
+  padding-top: 10px;
 }
 
 .section5-con .con1 {
@@ -631,7 +635,7 @@
   margin-top: 10px;
   padding: 10px 25px;
   border-radius: 35px;
-  opacity: 0.7;
+
   border: none;
   margin-top: 15px;
 }
@@ -653,7 +657,7 @@
   letter-spacing: normal;
   font-family: "Aeonik Pro", sans-serif;
   margin-top: 10px;
-  padding: 10px 20px;
+  padding: 10px 25px;
   border-radius: 35px;
   background: transparent;
 }
@@ -692,7 +696,8 @@
   letter-spacing: normal;
 }
 
-.section8 .con p {
+.section8 .con p,
+.section8 .con a {
   color: rgb(25, 28, 31);
   font-family: "Aeonik Pro", sans-serif;
   font-size: 12px;
@@ -818,7 +823,7 @@
   padding-right: 20px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 
 .section10 .drop {
@@ -828,8 +833,8 @@
 }
 
 .section10 .drop img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   color: white;
 }
 
@@ -888,8 +893,8 @@
   max-width: 1024px;
   margin: 0 auto;
   flex-wrap: wrap;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 40px;
   gap: 10px;
 }
@@ -934,6 +939,7 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .section11 .sec3 p {
@@ -943,7 +949,21 @@
   letter-spacing: 0.18px;
   line-height: 18px;
   font-family: "Aeonik Pro", sans-serif;
-  margin-top: 20px;
+  margin-top: 15px;
+}
+
+.section11 .sec3 a {
+  color: rgb(141, 150, 158);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.18px;
+  line-height: 18px;
+  font-family: "Aeonik Pro", sans-serif;
+  margin-top: 15px;
+}
+
+.br {
+  display: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -1129,14 +1149,27 @@
     max-width: 1024px;
     margin: 0 auto;
   }
+
+  .section5-con .con1 h1 {
+    color: white;
+    font-family: "Aeonik Pro", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -0.6px;
+    margin-top: 15px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .frame {
+    bottom: 50px;
+  }
   .banner {
-    height: 630px;
+    height: 700px;
   }
   .banner-image {
-    height: 630px;
+    height: 700px;
   }
 
   .frame picture img {
@@ -1146,6 +1179,7 @@
   .banner-content {
     z-index: 10;
     position: relative;
+    margin-top: 80px;
   }
 
   .banner-content p {
@@ -1281,6 +1315,10 @@
     font-weight: 500;
     line-height: 48px;
     letter-spacing: -0.6px;
+  }
+
+  .br {
+    display: block;
   }
 }
 
