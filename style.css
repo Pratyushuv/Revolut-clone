@@ -846,6 +846,41 @@
   display: none;
 }
 
+.section11 {
+  width: 100%;
+  background-color: rgb(25, 28, 31);
+}
+
+.section11 .sec1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  border-bottom: 1px solid#474a4e;
+  padding-bottom: 10px;
+}
+
+.section11 .sec1 .social {
+  width: 100%;
+  display: flex;
+  gap: 25px;
+  justify-content: flex-end;
+}
+
+.section11 .sec1 .icon {
+  width: 100%;
+}
+
+.fb,
+.insta,
+.link,
+.x,
+.tiktok {
+  align-self: center;
+}
+
 /* .section10 .drop  */
 
 @media screen and (min-width: 720px) {
