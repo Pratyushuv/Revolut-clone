@@ -312,7 +312,7 @@
 
 .section3 .sec2 {
   display: flex;
-  gap: 100px;
+  gap: 35px;
   margin-top: 80px;
   justify-content: center;
   flex-wrap: wrap;
@@ -990,7 +990,7 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
-  padding-bottom: 50px;
+  padding-bottom: 85px;
 }
 
 .section11 .sec3 p {
@@ -1000,7 +1000,7 @@
   letter-spacing: 0.18px;
   line-height: 18px;
   font-family: font1;
-  margin-top: 15px;
+  margin-top: 18px;
 }
 
 .section11 .sec3 a {
